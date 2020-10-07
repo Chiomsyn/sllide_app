@@ -10,7 +10,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="446dp">
+        android:layout_height="678dp">
 
     </androidx.viewpager.widget.ViewPager>
 
@@ -22,5 +22,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="1dp"
         android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/prev_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent"
+        android:text="BACK"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nxt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-3dp"
+        android:background="@android:color/transparent"
+        android:text="NEXT" />
 
 </RelativeLayout>

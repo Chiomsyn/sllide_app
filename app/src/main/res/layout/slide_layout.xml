@@ -5,53 +5,41 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/slide_image"
         android:layout_width="289dp"
         android:layout_height="199dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="59dp"
         android:layout_marginTop="103dp"
         android:layout_marginEnd="61dp"
-        android:layout_marginBottom="428dp"
-        android:adjustViewBounds="false"
         android:cropToPadding="true"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/thirdcar" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/slide_Heading"
         android:layout_width="117dp"
         android:layout_height="36dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/slide_image"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="338dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginTop="30dp"
         android:text="First Car"
-        android:textColor="@color/colorWhite"
         android:textAlignment="center"
+        android:textColor="@color/colorWhite"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/slide_desc"
         android:layout_width="match_parent"
         android:layout_height="104dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="217dp"
+        android:layout_below="@id/slide_Heading"
+        android:layout_marginTop="50dp"
         android:paddingTop="15dp"
         android:paddingBottom="5dp"
-        android:textColor="@color/colorTransparentWhite"
         android:textAlignment="center"
+        android:textColor="@color/colorTransparentWhite"
         tools:text="@string/first" />
 </RelativeLayout>
